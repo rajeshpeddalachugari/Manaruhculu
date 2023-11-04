@@ -589,18 +589,40 @@ export const menuItems = [
             {
                 "name": "Tandoori Chicken",
                 "price": 0,
+                "Variation_name": "Quantity",
+                "Variation": "Half",
+                "Variation_Price": 259,
+                "Variation_1": "Full",
+                "Variation_Price_1": 499,
                 "variations": [
-                    {},
-                    {},
+                    {
+                        "name": "Half",
+                        "variation_price": 259
+                    },
+                    {
+                        "name": "Full",
+                        "variation_price": 499
+                    },
                     {}
                 ]
             },
             {
                 "name": "Tangdi Kebab",
                 "price": 0,
+                "Variation_name": "Quantity",
+                "Variation": "Half",
+                "Variation_Price": 259,
+                "Variation_1": "Full",
+                "Variation_Price_1": 499,
                 "variations": [
-                    {},
-                    {},
+                    {
+                        "name": "Half",
+                        "variation_price": 259
+                    },
+                    {
+                        "name": "Full",
+                        "variation_price": 499
+                    },
                     {}
                 ]
             },

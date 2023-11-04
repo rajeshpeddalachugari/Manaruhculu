@@ -41,7 +41,7 @@ export default {
   <div class="flex justify-center pt-2 pb-2">
     <h3 class="text-xl font-bold font-serif">Our Menu</h3>
   </div>
-  <Accordion :multiple="true" :activeIndex="[0]">
+  <Accordion :multiple="false" :activeIndex="[0]">
     <AccordionTab v-for="item in menuItems" :header="item.name">
       <table
         class="border-collapse w-full border border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-sm"
